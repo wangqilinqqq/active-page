@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="Description" content="Description" />
+    <meta name="Keywords" content="Keywords" />
+    <title>title</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/index-m.css" />
+    <script>
+      if (
+        /android|webos|iphone|ipod|blackberry|ieiMobile|opera mini/i.test(
+          navigator.userAgent,
+        )
+      ) {
+      } else {
+        // 跳转pc端
+        window.location.href = './index.html';
+      }
+    </script>
+    <script src="./js/viewportScale.js"></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="wrap-bg"></div>
+    </div>
+  </body>
+</html>
